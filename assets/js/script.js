@@ -7,7 +7,6 @@ $('document').ready(() => {
                 id: e.target.attributes.id.value,
                 imagen: e.target.attributes.src.value,
             }
-            $('#productos-modal').append(`<h4 class='text-center text-uppercase'>debe seleccionar al menos un producto</h4>`);
 
             if(arrCompra.length == 0){
                 arrCompra.push(imagen);
